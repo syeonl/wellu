@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> 반응형에사용 -->
+    <!-- 모바일 브라우저의 화면크기(viewport)를 장치의 가로에 맞추고 
+    초기확대비율은 1(=100%)로 하여 축소시 기본값은 0.25이므로 1로 설정
+    maximum-scale은 기본값으로 디바이스가 허용하는한 확대
+    user-scalable=no는 ios에서 막혀있으므로 사용불가   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <!-- ios 전화번호형식 링크방지, 색변경/링크클릭안됨 -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="위아유">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="위아유">
+    <meta property="og:url" content="http://syeon8867.dothome.co.kr/bonif">
+    <meta property="og:image"
+      content="http://syeon8867.dothome.co.kr/bonif/images/kakao_share_default.png">
+      <meta property="og:description" content="위아유">
+    <meta property="og:description" content="위아유">
+    <title>위아유</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico?v=1">
+    <!-- 모바일브라우저 홈화면추가시 아이콘 -->
+    <link rel="apple-touch-icon" href="images/app_home.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+      <!-- 라이브러리용 css는 수정하지 않으므로 타임스탬프 필요없음 -->
+    <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+  </head>
+
+  <body>
+      <!-- 모바일 voiceover등의 스크린리더 사용시 필요함 -->
+    <div id="skipNavi">
+      <a href="#container">본문 바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="로고"></a></h1>
+            <div class="btn_wrap">
+                <a class="btn_login" href="#">로그인</a>
+                <button class="btn_search_toggle" type="button">검색 열기</button>
+            </div>
+            <nav class="gnb">
+                <ul class="depth1">
+                    <li><a href="javascript:void(0)">위아유셀럽</a></li>
+                    <li><a href="javascript:void(0)">위아유링크</a></li>
+                    <li><a href="javascript:void(0)">회사 소개</a></li>
+                    <li><a href="javascript:void(0)">입점 문의</a></li>
+                    <li><a href="javascript:void(0)">라이브 커머스 신청</a></li>
+                </ul>
+            </nav>
+        </header>
+           
+        <footer id="footer">
+
+
+          
+           
+        </footer>
+    </div>
+    <!-- 순서 바뀌면 안됨!!! -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <!-- 항상 우리꺼는 밑에 위치 -->
+    <script src="js/main.js?v=<?php echo time(); ?>"></script>
+  </body>
+</html>
